@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Infotiv qualified for final phase in AI Test Challenge
-date: 2017-09-12 00:00:00 +0300
+date: 2019-09-23 00:00:00 +0300
 description: Infotiv thrive when we get to explore, be curious and challenge ourselves at the frontline of technology. The Infotiv research group was recently part of a Swedish team for the "2021 IEEE Autonomous Driving AI Test Challenge". We are proud to announce that out of 119 teams entering the fierce competition our team placed itself among the top 13 that were qualified for the final phase of the challenge.
 img: infotiv-webb-ieee-20210923.jpg # Add image post (optional)
 tags: [simulator, apollo, svl, machine-learning] # add tag
@@ -24,7 +24,7 @@ The results of this experiment were presented at IEEE AI Test Conference and wil
 
 In the competition, Infotiv collaborated with researchers from Chalmers University of Technology, Research Institutes of Sweden, and Mälardalen University, as a part of VALU3S research project ("Verification and Validation of Automated Systems' Safety and Security").
 
-### LINKS
+### Links
 
 2021 IEEE Autonomous Driving AI Test Challenge: http://av-test-challenge.org
 
@@ -33,3 +33,11 @@ VALU3S research project: https://valu3s.eu
 SVL end-to-end autonomous vehicle simulation platform: https://www.svlsimulator.com
 
 The Apollo open autonomous driving platform: https://apollo.auto
+
+
+### Links
+
+[2021 IEEE Autonomous Driving AI Test Challenge]: http://av-test-challenge.org
+[VALU3S research project]:   https://valu3s.eu
+[SVL end-to-end autonomous vehicle simulation platform]: https://www.svlsimulator.com
+[The Apollo open autonomous driving platform]: https://apollo.auto
