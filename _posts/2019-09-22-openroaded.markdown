@@ -11,12 +11,11 @@ OpenRoadEd is simple application designed to create both logical (OpenDRIVE stan
 
 This fork was adapted to compile on modern Linux operating systems by Hermann Höhne and Hamid Ebadi.
 
-![OpenRoadEdLinux]({{https://github.com/ebadi/OpenRoadEd/}}/assets/img/OpenRoadEdLinuxXodr.png)
 
 
 ### Links
  
-[OpenRoadEd on Linux]:  http://av-test-challenge.org
-[VALU3S research project]:   https://valu3s.eu
-[SVL end-to-end autonomous vehicle simulation platform]: https://www.svlsimulator.com
-[The Apollo open autonomous driving platform]: https://apollo.auto
+[OpenRoadEd on Linux](http://av-test-challenge.org)
+[VALU3S research project](https://valu3s.eu)
+[SVL end-to-end autonomous vehicle simulation platform](https://www.svlsimulator.com)
+[The Apollo open autonomous driving platform](https://apollo.auto)

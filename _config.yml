@@ -8,7 +8,7 @@ site-twitter: hamidebadi #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Hamid Ebadi # add your name
-author-img: hamid-ebadi.jpg # add your photo
+# author-img: hamid-ebadi.jpg # add your photo
 about-author: Ph.D in computer science from Chalmers university of technology, Sweden
 social-twitter: hamidebadi # add your Twitter handle
 social-facebook: # add your Facebook handle

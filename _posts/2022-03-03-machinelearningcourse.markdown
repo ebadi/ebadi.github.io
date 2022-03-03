@@ -3,7 +3,7 @@ layout: post
 title: Machine Learning – from Zero to Hero
 date: 2022-03-03 00:00:00 +0300
 description: The Infotiv Machine Learning course gives the student the theoretical and practical knowledge in training models. The student will also get basic understanding on the challenges in testing functionality based on ML
-img: IMG.png # Add image post (optional)
+img: how-to-start.jpg # Add image post (optional)
 tags: [simulator, machine-learning] # add tag
 ---
 
@@ -41,4 +41,4 @@ The exercises will be split over the two days. The first day covers exercise set
 
 ### Links
  
-[Machine Learning – from Zero to Hero]:  https://www.infotiv.se/utbildningar/course-schedule-ai-machine-learning
+[Machine Learning – from Zero to Hero](https://www.infotiv.se/utbildningar/course-schedule-ai-machine-learning)
