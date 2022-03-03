@@ -1,6 +1,6 @@
-title: Portfolio
+title: Portfolio of projects
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to the online portfolio of machine learning work by Hamid Ebadi
+  Welcome to the online portfolio of machine learning and simulation projects by Hamid Ebadi
 permalink: ':title/'
 baseurl: "/ebadi.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,8 +9,7 @@ site-twitter: hamidebadi #if your site has a twitter account, enter it here
 # Author Settings
 author: Hamid Ebadi # add your name
 author-img: hamid-ebadi.jpg # add your photo
-about-author: Ph.D in computer science.
-. # add description
+about-author: Ph.D in computer science from Chalmers university of technology, Sweden
 social-twitter: hamidebadi # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: ebadi # add your Github handle
