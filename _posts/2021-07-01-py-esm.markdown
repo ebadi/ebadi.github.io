@@ -28,4 +28,4 @@ while not player.IsQuitRequested():
 
 ### Links
  
-[python-esmini github repositoy](https://github.com/ebadi/OpenScenarioEdito)
+[python-esmini github repositoy](https://github.com/ebadi/python-esmini)

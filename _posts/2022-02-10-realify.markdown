@@ -10,3 +10,6 @@ tags: [simulator, machine-learning] # add tag
 [![Realify](/assets/img/sample.png)](https://github.com/ebadi/realify), generates realistic looking license plate from outlines.
 A short [video demo **realify** ](https://www.youtube.com/watch?v=D-7qlTAg3Zw)
 
+### Links
+ 
+[Realify github repositoy](https://github.com/ebadi/realify)

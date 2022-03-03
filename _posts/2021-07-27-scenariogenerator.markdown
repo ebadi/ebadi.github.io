@@ -7,7 +7,7 @@ img: apollo-svl.png # Add image post (optional)
 tags: [simulator, machine-learning] # add tag
 ---
 
-*ScenarioGenerator* performs search-based software testing of [Baidu Apollo](https://apollo.auto) by automatic generation of various traffic scenarios in [SVL end-to-end autonomous vehicle.](https://www.svlsimulator.com) to verify and validate the safety functionality of Apollo autonomous systems. ScenarioGenerator project is started and is currently maintained by Hamid Ebadi. 
+[*ScenarioGenerator*](https://github.com/ebadi/ScenarioGenerator) performs search-based software testing of [Baidu Apollo](https://apollo.auto) by automatic generation of various traffic scenarios in [SVL end-to-end autonomous vehicle.](https://www.svlsimulator.com) to verify and validate the safety functionality of Apollo autonomous systems. ScenarioGenerator project is started and is currently maintained by Hamid Ebadi. 
 
 
 If the code helps your research please cite our paper (["Efficient and Effective Generation of Test Cases for Pedestrian Detection – Search-based Software Testing of Baidu Apollo in SVL"](/assets/img/IEEE_AV_Test_Challenge.pdf) ) presented at [AITest 2021 : The IEEE Third International Conference On Artificial Intelligence Testing](http://www.ieeeaitests.com/) in the [Autonomous Driving AI Test Challenge](http://av-test-challenge.org) track.
@@ -17,3 +17,6 @@ If the code helps your research please cite our paper (["Efficient and Effective
 - ScenarioGenerator: [This video demonstrates `ScenarioGenerator.py` in action.](https://www.youtube.com/watch?v=GOtpSJodlmo&list=PLDs7zRhHsnSQzPShKLLaiLJvybV2HVtAS)
 - Safety violation/failures: [This video presents the safety violations that are detected.](https://www.youtube.com/watch?v=6PokmSRsj3Y&list=PLDs7zRhHsnSQzPShKLLaiLJvybV2HVtAS)
 
+### Links
+ 
+[ScenarioGenerator github repositoy](https://github.com/ebadi/ScenarioGenerator)
