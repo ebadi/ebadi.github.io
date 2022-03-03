@@ -26,10 +26,10 @@ In the competition, Infotiv collaborated with researchers from Chalmers Universi
 
 ### Links
 
-2021 IEEE Autonomous Driving AI Test Challenge: http://av-test-challenge.org
+[2021 IEEE Autonomous Driving AI Test Challenge:](http://av-test-challenge.org)
 
-VALU3S research project: https://valu3s.eu
+[VALU3S research project](https://valu3s.eu)
 
-SVL end-to-end autonomous vehicle simulation platform: https://www.svlsimulator.com
+[SVL end-to-end autonomous vehicle simulation platform](https://www.svlsimulator.com)
 
-The Apollo open autonomous driving platform: https://apollo.auto
+[The Apollo open autonomous driving platform](https://apollo.auto)
