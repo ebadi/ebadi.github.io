@@ -9,7 +9,10 @@ tags: [simulator, machine-learning] # add tag
 
 Realify generates realistic looking license plate from licese plate outlines.
 
-A short [video demo **realify** ](https://www.youtube.com/watch?v=D-7qlTAg3Zw)
+A short video demo of **realify**:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D-7qlTAg3Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Links
  

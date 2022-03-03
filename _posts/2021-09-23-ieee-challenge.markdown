@@ -9,7 +9,7 @@ tags: [simulator, apollo, svl, machine-learning] # add tag
 
 Infotiv thrive when we get to explore, be curious and challenge ourselves at the frontline of technology. The Infotiv research group was recently part of a Swedish team for the "2021 IEEE Autonomous Driving AI Test Challenge". We are proud to announce that out of 119 teams entering the fierce competition our team placed itself among the top 13 that were qualified for the final phase of the challenge.
 
-<iframe  src="https://www.youtube.com/embed/ZvG37V3IQk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZvG37V3IQk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Infotiv qualified for final phase in AI Test Challenge

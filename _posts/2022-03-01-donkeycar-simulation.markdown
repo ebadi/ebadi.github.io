@@ -9,4 +9,4 @@ tags: [simulator, machine-learning] # add tag
 
 Verification and validation of DonkeyCar within [Self Driving Car Sandbox simulator](https://github.com/tawnkramer/sdsandbox)
 
-<iframe src="https://www.youtube.com/embed/tcwXxLMq950" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tcwXxLMq950" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
