@@ -1,16 +1,13 @@
 ---
 layout: post
 title: TITLE
-date: 2019-09-22 00:00:00 +0300
+date: 2050-09-22 00:00:00 +0300
 description: SHORTDESCRIPTION
 img: IMG.png # Add image post (optional)
 tags: [simulator, machine-learning] # add tag
 ---
 
 TEXT
-
-![OpenRoadEdLinux]({{https://github.com/ebadi/OpenRoadEd/}}/assets/img/OpenRoadEdLinuxXodr.png)
-
 
 ### Links
  
