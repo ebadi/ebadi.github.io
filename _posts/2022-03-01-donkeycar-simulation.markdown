@@ -3,7 +3,7 @@ layout: post
 title: DonkeyCar in Self Driving Car Sandbox simulator
 date: 2022-03-01 00:00:00 +0300
 description: Verification and validation of ADS solutions within Self Driving Car Sandbox
-img: IMG.png # Add image post (optional)
+img: donkey.png # Add image post (optional)
 tags: [simulator, machine-learning] # add tag
 ---
 
