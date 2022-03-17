@@ -15,6 +15,17 @@ Training phase:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y43rOdsG7gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+Visualize CNN filter activations:
+
+![Visualize CNN filter activations](/assets/img/donkeyCNN.png)
+
+
+Plot Predictions:
+
+![Plot Predictions](/assets/img/donkeyplot.png)
+
+
 Autopilot:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ya41vyW-bcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
