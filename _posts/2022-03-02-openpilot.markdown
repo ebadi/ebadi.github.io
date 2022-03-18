@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenPilot in CARLA
-date: 2022-03-22 00:00:00 +0300
+date: 2022-03-10 00:00:00 +0300
 description: OpenPilot driver assistance system within CARLA
 img: openpilot.png # Add image post (optional)
 tags: [simulator, machine-learning] # add tag
