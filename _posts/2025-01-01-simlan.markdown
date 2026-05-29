@@ -1,0 +1,63 @@
+---
+layout: post
+title: SIMLAN — Simulation for Multi-Camera Robotics
+date: 2025-01-01 00:00:00 +0300
+description: SIMulation for Multi-Camera Robotics using ROS2/Gazebo. Playground for rapid prototyping with multi-camera perception, support for Panda and UR10 robotic arms, human worker interaction using deep-learning-based human pose capture and replay.
+img: https://img.youtube.com/vi/FJcsVDP3DHg/0.jpg
+tags: [robotics, ros2, simulation, machine-learning, gazebo]
+---
+
+SIMLAN (Simulation for Multi-Camera Robotics) is a simulation environment based on Ignition Gazebo and ROS 2 that resembles a Volvo Trucks warehouse. It serves as a playground for rapid prototyping and testing of systems relying on a multi-camera setup for perception, monitoring, localization, or navigation.
+
+## Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FJcsVDP3DHg" title="SIMLAN demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GPSS — Generic Photo-based Sensor System
+
+Inspired by the [Volvo GPSS system](https://www.volvogroup.com/en/news-and-media/news/2024/nov/ai-modern-manufacturing.html) using ceiling-mounted cameras for warehouse navigation:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DA7lKiCdkCc" title="GPSS demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+GPSS controls (ArUco localization, Nav2 navigation):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_UhRFR-L9iQ" title="SIMLAN GPSS controls demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## RITA — Robotic Arm and Humanoid
+
+Panda arm and humanoid worker integration:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EiCNiPeifPk" title="SIMLAN RITA controls demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Installation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DgJXlsXUa-w" title="SIMLAN installation demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Features
+
+- Ignition Gazebo with a library of realistic warehouse assets
+- Real-world environment design inspired by ceiling-mounted camera layouts
+- ROS 2 interfaces (Humble and Jazzy)
+- Simple GPSS (Generic Photo-based Sensor System) navigation
+- Multi-robot localization and navigation using Nav2
+- ArUco marker localization
+- Bird's-eye view projection and camera stitching
+- Multi-sensor support (LiDAR, RGB, semantic segmentation, depth)
+- Geofencing for safe zones and safe stop on collision
+- Humanoid worker model with deep-learning-based pose capture and replay
+- Panda robotic arm with pick-and-place scenarios
+
+## Documentation
+
+- [Online Documentation](https://infotiv-research.github.io/SIMLAN/)
+- [PDF Documentation](https://infotiv-research.github.io/SIMLAN/SIMLAN.pdf)
+
+## Research Funding
+
+Carried out within:
+- [SMILE IV](https://www.vinnova.se/p/smile-iv/) — Vinnova, FFI grant 2023-00789
+- EUREKA ITEA4 [ArtWork](https://www.vinnova.se/p/artwork---the-smart-and-connected-worker/) — Vinnova grant 2023-00970
+
+### Links
+
+[SIMLAN GitHub repository](https://github.com/infotiv-research/SIMLAN)

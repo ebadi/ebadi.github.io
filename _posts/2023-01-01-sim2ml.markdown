@@ -1,0 +1,49 @@
+---
+layout: post
+title: sim2ml — Synthetic Dataset Generation for ML Testing
+date: 2023-01-01 00:00:00 +0300
+description: Toolchain for generating synthetic datasets from the BERGE simulator to support search-based testing of ML systems in traffic monitoring; measures how weather, lighting, and time-of-day affect a license plate detector.
+img: https://img.youtube.com/vi/bLVjQXtlwP0/0.jpg
+tags: [machine-learning, simulation, testing, autonomous-driving]
+---
+
+sim2ml (Scenario Manipulator) is a toolchain for generating synthetic datasets aimed at facilitating search-based testing of machine learning systems. It targets traffic monitoring systems and measures how environmental parameters such as weather, lighting, and time-of-day affect the accuracy of a license plate detector.
+
+## Scenario Creation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2LRw7jGvWLU" title="Scenario creation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Scenario Generation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bLVjQXtlwP0" title="Scenario generation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How It Works
+
+1. A base `scenario.JSON` is defined in the BERGE simulator
+2. The ScenarioManipulator **vectorizes** the scenario parameters (lighting, time, paths)
+3. The tool **mutates** the scenario by applying noise vectors to generate diverse variants
+4. Each variant is rendered in BERGE and evaluated using the CAMEA LP detector
+5. Metrics (IoU, Levenshtein distance, box score, OCR score) are collected per frame
+6. A **linear regression model** is trained to find the effect of each parameter on detection quality
+
+## Sensors Supported
+
+The BERGE simulator offers cameras, distorted cameras, depth sensors, radars, and semantic segmentation sensors.
+
+## Metrics
+
+For each frame image, four metrics are tracked:
+- **iou** — intersection over union of detected plate bounding boxes
+- **lev** — Levenshtein distance between detected and ground-truth plate text
+- **box_score** — bounding box confidence
+- **ocr_score** — OCR confidence
+
+## Funding
+
+Carried out under the [VALU3S](https://valu3s.eu) project, funded by ECSEL Joint Undertaking (JU) under grant agreement No 876852 (EU Horizon 2020).
+
+### Links
+
+[sim2ml GitHub repository](https://github.com/ebadi/sim2ml)
+
+[DSC 2023 Publication](https://github.com/ebadi/sim2ml/raw/main/DSC2023.pdf)

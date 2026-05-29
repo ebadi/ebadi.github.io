@@ -1,0 +1,26 @@
+---
+layout: post
+title: PreTPost — Transparent Local Differential Privacy Framework
+date: 2018-01-01 00:00:00 +0300
+description: Python-based local differential privacy framework (developed during PhD) giving users transparent, user-verifiable control over their personal data during collection.
+img: # no image in README
+tags: [privacy, security, differential-privacy, python]
+---
+
+The PreTPost framework is a transparent generic local differential privacy framework implemented in Python. It aims to verifiably respect the privacy expectations of individual users who are subject to data collection — giving users transparent, user-verifiable control over how their personal data is handled.
+
+PreTPost was developed by Hamid Ebadi during his PhD at Chalmers University of Technology as part of research into dynamic enforcement of differential privacy.
+
+## Documentation
+
+- [PreTPost: A Transparent, User Verifiable, Local Differential Privacy Framework](https://github.com/ebadi/preTpost/raw/master/preTpost1.pdf)
+- [Design and Use of PreTPost Framework](https://github.com/ebadi/preTpost/raw/master/preTpost2.pdf)
+- [Jupyter Notebook Documentation](https://github.com/ebadi/preTpost/blob/master/README.ipynb)
+
+## Related Work
+
+PreTPost is the practical Python implementation accompanying the PhD thesis *"Dynamic Enforcement of Differential Privacy"* (Chalmers University of Technology, 2018) and the paper *"Differential Privacy: Now it's Getting Personal"* (ACM SIGPLAN 2015).
+
+### Links
+
+[preTpost GitHub repository](https://github.com/ebadi/preTpost)

@@ -1,7 +1,7 @@
 title: Portfolio of projects
 description: Welcome to the online portfolio of machine learning and simulation projects by Hamid Ebadi
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ebadi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: hamidebadi #if your site has a twitter account, enter it here
 

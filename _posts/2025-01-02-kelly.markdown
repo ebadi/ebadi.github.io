@@ -1,0 +1,34 @@
+---
+layout: post
+title: kelly — Swedish Vocabulary Tools
+date: 2025-01-02 00:00:00 +0300
+description: Parser for the Swedish Kelly-list (frequency-ordered vocabulary from Språkbanken) with utilities to generate printable word lists and LLM prompts for Swedish language learning.
+img: # no image in README
+tags: [nlp, swedish, language-learning, tools]
+---
+
+kelly is a tool for working with frequency-based Swedish vocabulary lists. It uses the [Swedish Kelly-list](https://spraakbanken.gu.se/en/resources/kelly) — a free resource from Språkbanken (University of Gothenburg) containing modern Swedish words ordered by frequency of use.
+
+## Features
+
+- **Word List Generation** (`printable.py`): Creates a frequency-ordered word list ready for printing
+- **Conversation Prompt Builder** (`prompt.py`): Groups words into prompts for use with Large Language Models to generate example conversations
+
+## Usage
+
+```bash
+git clone https://github.com/ebadi/kelly.git
+cd kelly
+python3 printable.py > print.txt
+python3 prompt.py > prompt.md
+```
+
+## License
+
+Licensed under LGPL-3.0.
+
+### Links
+
+[kelly GitHub repository](https://github.com/ebadi/kelly)
+
+[Swedish Kelly-list at Språkbanken](https://spraakbanken.gu.se/en/resources/kelly)
