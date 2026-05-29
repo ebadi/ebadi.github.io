@@ -1080,7 +1080,7 @@ table tbody tr:last-child td {
   font-weight: 700;
   color: #888;
   background: none;
-  border: none;
+  border: 2px dashed #b0bac8;
   border-bottom: 3px solid transparent;
   margin-bottom: -2px;
   cursor: pointer;
@@ -1091,13 +1091,17 @@ table tbody tr:last-child td {
 
 .tab-btn:hover {
   color: #263959;
+  border-color: #263959;
+  border-bottom-color: transparent;
   background: #f4f6f9;
 }
 
 .tab-btn.active {
-  color: #263959;
+  color: #fff;
+  border: 2px solid #263959;
   border-bottom-color: #263959;
-  background: none;
+  background: #263959;
+  border-radius: 6px 6px 0 0;
 }
 
 /* ============================================================
