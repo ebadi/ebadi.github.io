@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Differential Privacy: Now it's Getting Personal"
+date: 2015-01-17 00:00:00 +0300
+description: A new accounting principle for building differentially private programs using Personalised Differential Privacy (PDP), where each individual maintains their own privacy budget. Presented at POPL 2015.
+img: publications/POPL2015-1.png
+tags: [privacy, differential-privacy, programming-languages, formal-methods]
+type: paper
+venue: "ACM SIGPLAN Notices (POPL 2015)"
+authors: "Hamid Ebadi, David Sands, Gerardo Schneider"
+pdf: POPL2015.pdf
+---
+
+**Authors:** Hamid Ebadi, David Sands, Gerardo Schneider
+
+**Venue:** ACM SIGPLAN Notices, Vol. 50(1), pp. 69–81 — POPL 2015, Mumbai, India, January 15–17, 2015
+
+## Abstract
+
+Differential privacy provides a way to get useful information about sensitive data without revealing much about any one individual. This paper introduces a new accounting principle for building differentially private programs based on *Personalised Differential Privacy* (PDP), where each individual maintains their own privacy budget.
+
+We describe **ProPer**, an interactive system for implementing PDP which maintains a privacy budget for each individual. When a primitive query is made on data derived from individuals, the provenance of the involved records determines how the privacy budget is affected: the number of records derived from Alice determines the multiplier for the privacy decrease in Alice's budget.
+
+We provide a formal model of the ProPer approach, prove that it provides personalised differential privacy, and describe a prototype implementation based on McSherry's PINQ system.
+
+**Keywords:** differential privacy, provenance, programming languages
+
+## Citation
+
+> Ebadi, H., Sands, D., and Schneider, G. (2015). Differential privacy: Now it's getting personal. *ACM SIGPLAN Notices*, 50(1), pp. 69–81.
+
+<a href="/Publications/POPL2015.pdf" class="download-btn" download><i class="fa fa-file-pdf-o"></i> Download PDF</a>
+<a href="/Publications/POPL2015.bib" class="download-btn download-btn--bib" download><i class="fa fa-quote-right"></i> Download BibTeX</a>
+<a href="https://github.com/ebadi/preTpost" class="download-btn download-btn--repo" target="_blank"><i class="fa fa-github"></i> GitHub Repository</a>

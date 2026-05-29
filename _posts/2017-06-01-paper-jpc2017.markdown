@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Featherweight PINQ"
+date: 2017-06-01 00:00:00 +0300
+description: A formal model capturing the essence of PINQ, proving that any program interacting with featherweight PINQ's API is differentially private. Published in the Journal of Privacy and Confidentiality.
+img: publications/JPC2017-1.png
+tags: [privacy, differential-privacy, formal-methods, programming-languages]
+type: paper
+venue: "Journal of Privacy and Confidentiality (2017)"
+authors: "Hamid Ebadi, David Sands"
+pdf: JPC2017.pdf
+---
+
+**Authors:** Hamid Ebadi, David Sands
+
+**Venue:** Journal of Privacy and Confidentiality (2017)
+
+## Abstract
+
+Differentially private mechanisms enjoy a variety of composition properties. Leveraging these, McSherry introduced PINQ (SIGMOD 2009), a system empowering non-experts to construct new differentially private analyses. PINQ is a LINQ-like API which provides automatic privacy guarantees for all programs which use it to mediate sensitive data manipulation.
+
+In this work we introduce *featherweight PINQ*, a formal model capturing the essence of PINQ. We prove that any program interacting with featherweight PINQ's API is differentially private.
+
+**Keywords:** Differential privacy, dynamic database, PINQ, Formalization
+
+## Citation
+
+> Ebadi, H., and Sands, D. (2017). Featherweight PINQ. *Journal of Privacy and Confidentiality*.
+
+<a href="/Publications/JPC2017.pdf" class="download-btn" download><i class="fa fa-file-pdf-o"></i> Download PDF</a>
+<a href="/Publications/JPC2017.bib" class="download-btn download-btn--bib" download><i class="fa fa-quote-right"></i> Download BibTeX</a>

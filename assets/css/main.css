@@ -1060,6 +1060,47 @@ table tbody tr:last-child td {
 }
 
 /* ============================================================
+   Tab bar
+   ============================================================ */
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #e4e8ee;
+  padding-bottom: 0;
+}
+
+.tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #888;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  letter-spacing: 0.2px;
+}
+
+.tab-btn:hover {
+  color: #263959;
+  background: #f4f6f9;
+}
+
+.tab-btn.active {
+  color: #263959;
+  border-bottom-color: #263959;
+  background: none;
+}
+
+/* ============================================================
    Post grid (home page)
    ============================================================ */
 .posts-grid {
@@ -1186,6 +1227,67 @@ table tbody tr:last-child td {
   font-weight: 600;
   text-transform: lowercase;
   letter-spacing: 0.2px;
+}
+
+/* Paper card variant — taller image to show PDF cover properly */
+.post-card--paper .post-card-image,
+.post-card-image--paper {
+  height: 240px;
+  background-size: cover;
+  background-position: top center;
+}
+
+.post-card-venue {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #3a5a80;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.post-card-authors {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+/* Download button in post body */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding: 10px 22px;
+  background: #263959;
+  color: #fff !important;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.download-btn:hover {
+  background: #1a2a3a;
+  transform: translateY(-1px);
+}
+
+.download-btn--bib {
+  background: #2e6e4e;
+}
+
+.download-btn--bib:hover {
+  background: #1f4f38;
+}
+
+.download-btn--repo {
+  background: #7a4a00;
+}
+
+.download-btn--repo:hover {
+  background: #5c3700;
 }
 
 /* ============================================================

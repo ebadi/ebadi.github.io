@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Sampling and Partitioning for Differential Privacy"
+date: 2016-12-12 00:00:00 +0300
+description: Demonstrates a sampling attack on PINQ and studies a range of sampling and partitioning methods showing how they can be correctly implemented in a system for differential privacy. Presented at PST 2016.
+img: publications/PST2016-1.png
+tags: [privacy, differential-privacy, formal-methods, security]
+type: paper
+venue: "PST 2016 — 14th Annual Conference on Privacy, Security and Trust"
+authors: "Hamid Ebadi, Thibaud Antignac, David Sands"
+pdf: PST2016.pdf
+---
+
+**Authors:** Hamid Ebadi, Thibaud Antignac, David Sands
+
+**Venue:** 14th Annual Conference on Privacy, Security and Trust (PST 2016), pp. 664–673
+
+## Abstract
+
+Differential privacy enjoys increasing popularity thanks to both a precise semantics for privacy and effective enforcement mechanisms. Many tools have been proposed to spread its use and ease the task of the concerned data scientist. However, their implementation proves to be delicate, and introduce flaws by falsifying some of the theoretical assumptions made to guarantee differential privacy.
+
+This paper focuses on a key mechanism that tools do not support well: **sampling**. We demonstrate an attack on PINQ (McSherry, SIGMOD 2009) relying on the difference between its internal mechanics and the formal theory for the sampling operation. We then study a range of sampling and partitioning methods and show how they can be correctly implemented in a system for differential privacy.
+
+**Keywords:** differential privacy, sampling, partitioning, PINQ
+
+## Citation
+
+> Ebadi, H., Antignac, T., and Sands, D. (2016). Sampling and partitioning for differential privacy. *2016 14th Annual Conference on Privacy, Security and Trust (PST)*, pp. 664–673.
+
+<a href="/Publications/PST2016.pdf" class="download-btn" download><i class="fa fa-file-pdf-o"></i> Download PDF</a>
+<a href="/Publications/PST2016.bib" class="download-btn download-btn--bib" download><i class="fa fa-quote-right"></i> Download BibTeX</a>

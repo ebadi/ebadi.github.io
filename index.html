@@ -1,9 +1,19 @@
 ---
 layout: main
 ---
-<div class="posts-grid">
-  {% for post in paginator.posts %}
-  <article class="post-card">
+
+<div class="tab-bar">
+  <button class="tab-btn active" data-tab="projects">
+    <i class="fa fa-code"></i> Projects
+  </button>
+  <button class="tab-btn" data-tab="papers">
+    <i class="fa fa-file-text-o"></i> Publications
+  </button>
+</div>
+
+<div id="tab-projects" class="posts-grid tab-content">
+  {% for post in paginator.posts %}{% unless post.type == "paper" %}
+  <article class="post-card" data-type="project">
     <a class="post-card-image-link" href="{{ post.url | relative_url }}">
       {% if post.img %}
         {% if post.img contains "://" %}
@@ -32,7 +42,64 @@ layout: main
       </div>
     </div>
   </article>
+  {% endunless %}{% endfor %}
+</div>
+
+<div id="tab-papers" class="posts-grid tab-content" style="display:none">
+  {% assign papers = site.posts | where: "type", "paper" %}
+  {% for post in papers %}
+  <article class="post-card post-card--paper" data-type="paper">
+    <a class="post-card-image-link" href="{{ post.url | relative_url }}">
+      {% if post.img %}
+      <div class="post-card-image post-card-image--paper" style="background-image: url({{ '/assets/img/' | relative_url | append: post.img }})"></div>
+      {% else %}
+      <div class="post-card-image post-card-image--none"></div>
+      {% endif %}
+    </a>
+    <div class="post-card-body">
+      <h2 class="post-card-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <p class="post-card-venue">{{ post.venue }}</p>
+      <p class="post-card-authors">{{ post.authors }}</p>
+      <div class="post-card-footer">
+        <span class="post-card-date">{{ post.date | date: '%Y' }}</span>
+        {% if post.tags %}
+        <div class="post-card-tags">
+          {% for tag in post.tags limit:3 %}
+          <span class="tag-pill">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </article>
   {% endfor %}
 </div>
 
 {% include pagination.html %}
+
+<script>
+(function () {
+  var hash = window.location.hash;
+  if (hash === '#papers') activateTab('papers');
+
+  document.querySelectorAll('.tab-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      activateTab(this.dataset.tab);
+      history.replaceState(null, '', '#' + this.dataset.tab);
+    });
+  });
+
+  function activateTab(name) {
+    document.querySelectorAll('.tab-btn').forEach(function (b) {
+      b.classList.toggle('active', b.dataset.tab === name);
+    });
+    document.querySelectorAll('.tab-content').forEach(function (el) {
+      el.style.display = el.id === 'tab-' + name ? '' : 'none';
+    });
+    var pg = document.querySelector('.pagination');
+    if (pg) pg.style.display = name === 'papers' ? 'none' : '';
+  }
+})();
+</script>
