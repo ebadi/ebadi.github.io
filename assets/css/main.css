@@ -1233,6 +1233,20 @@ table tbody tr:last-child td {
   letter-spacing: 0.2px;
 }
 
+/* Keyword pills under each session in a course agenda */
+.session-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 12px;
+}
+
+.session-keywords .tag-pill {
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  text-transform: none;
+}
+
 /* Paper card variant — taller image to show PDF cover properly */
 .post-card--paper .post-card-image,
 .post-card-image--paper {

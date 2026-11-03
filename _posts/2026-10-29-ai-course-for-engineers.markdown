@@ -4,7 +4,7 @@ title: AI Course for Engineers
 date: 2026-10-29 00:00:00 +0100
 description: A one-day workshop at INFOTIV about how AI and large language models work. Engineers learn to use language models and AI agents on real code, and to verify the results.
 img: # no image
-tags: [machine-learning, llm, ai-agents, teaching, deep-learning, agentic-engineering, prompt-engineering, context-engineering, claude-code, mcp, rag, prompt-injection, security, software-testing, eu-ai-act, ethics, local-models, fine-tuning]
+tags: [machine-learning, llm, ai-agents, teaching]
 ---
 
 The AI Course for Engineers is a one-day workshop that I teach at INFOTIV. The workshop explains how AI and large language models (LLMs) work. With this knowledge, engineers can use these tools with a plan, not by luck.
@@ -41,25 +41,25 @@ An AI agent wrote all the code for these two demos. Nobody wrote the code by han
 The workshop is one day, from 09:00 to 16:00. It has ten sessions.
 
 1. **Intro**: What this day is and what it is not.
-   *Topics: Mario demonstration, human and AI, from luck to repeatable results, how we work today.*
+   <span class="session-keywords"><span class="tag-pill">Mario demo</span> <span class="tag-pill">Human + AI</span> <span class="tag-pill">From luck to repeatable</span> <span class="tag-pill">How we work today</span></span>
 2. **Inside the box**: AI, machine learning and deep learning. The participants train a small neural network by hand.
-   *Topics: machine learning, neural networks, deep learning, CNN, RNN, diffusion, multimodal models.*
+   <span class="session-keywords"><span class="tag-pill">Machine learning</span> <span class="tag-pill">Neural networks</span> <span class="tag-pill">Deep learning</span> <span class="tag-pill">CNN</span> <span class="tag-pill">RNN</span> <span class="tag-pill">Diffusion</span> <span class="tag-pill">Multimodal</span></span>
 3. **Language models**: How a model reads text and writes the next word.
-   *Topics: embeddings, tokens, transformers, temperature, context window.*
+   <span class="session-keywords"><span class="tag-pill">Embeddings</span> <span class="tag-pill">Tokens</span> <span class="tag-pill">Transformer</span> <span class="tag-pill">Temperature</span> <span class="tag-pill">Context window</span></span>
 4. **Working with the model**: Prompts, and how to write a specification that the model can follow.
-   *Topics: vibe coding, prompt engineering, chain prompting, goals, boundaries and checks.*
+   <span class="session-keywords"><span class="tag-pill">Vibe coding</span> <span class="tag-pill">Prompt engineering</span> <span class="tag-pill">Chain prompting</span> <span class="tag-pill">Goal, boundaries, checks</span></span>
 5. **Harness, tools and agents**: How to give the model tools.
-   *Topics: agents, tool calling, Claude Code, Model Context Protocol (MCP), skills, command line.*
+   <span class="session-keywords"><span class="tag-pill">Agents</span> <span class="tag-pill">Tool calling</span> <span class="tag-pill">Claude Code</span> <span class="tag-pill">MCP</span> <span class="tag-pill">Skills</span> <span class="tag-pill">CLI</span></span>
 6. **Context engineering and memory**: What to put in the context of the model and what to leave out.
-   *Topics: context rot, memory, retrieval-augmented generation (RAG), OpenRouter.*
+   <span class="session-keywords"><span class="tag-pill">Context rot</span> <span class="tag-pill">Memory</span> <span class="tag-pill">RAG</span> <span class="tag-pill">OpenRouter</span></span>
 7. **Security and brakes**: Sandboxes, credentials and poisoned text.
-   *Topics: sandboxes, prompt injection.*
+   <span class="session-keywords"><span class="tag-pill">Sandboxes</span> <span class="tag-pill">Prompt injection</span></span>
 8. **Limits, failures and verification**: False output, bias, tests and review. How to know if the output is good.
-   *Topics: hallucination, bias, AI slop, testing, benchmarks.*
+   <span class="session-keywords"><span class="tag-pill">Hallucination</span> <span class="tag-pill">Bias</span> <span class="tag-pill">AI slop</span> <span class="tag-pill">Testing</span> <span class="tag-pill">Benchmarks</span></span>
 9. **Ethics, law and obligations**: Real incidents, the EU AI Act and who is responsible.
-   *Topics: misalignment, real incidents, EU AI Act, standards.*
+   <span class="session-keywords"><span class="tag-pill">Misalignment</span> <span class="tag-pill">Real incidents</span> <span class="tag-pill">EU AI Act</span> <span class="tag-pill">Standards</span></span>
 10. **Models, cost and running locally**: What you pay for, and how to run a model on your own computer.
-    *Topics: token cost, open and closed models, local models, quantization, fine-tuning.*
+    <span class="session-keywords"><span class="tag-pill">Token cost</span> <span class="tag-pill">Open vs closed</span> <span class="tag-pill">Local models</span> <span class="tag-pill">Quantization</span> <span class="tag-pill">Fine-tuning</span></span>
 
 The participants answer quiz questions on their phones during the day.
 
