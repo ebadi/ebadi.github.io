@@ -4,7 +4,7 @@ title: AI Course for Engineers
 date: 2026-10-29 00:00:00 +0100
 description: A one-day workshop at INFOTIV about how AI and large language models work. Engineers learn to use language models and AI agents on real code, and to verify the results.
 img: # no image
-tags: [machine-learning, llm, ai-agents, teaching]
+tags: [machine-learning, llm, ai-agents, teaching, deep-learning, agentic-engineering, prompt-engineering, context-engineering, claude-code, mcp, rag, prompt-injection, security, software-testing, eu-ai-act, ethics, local-models, fine-tuning]
 ---
 
 The AI Course for Engineers is a one-day workshop that I teach at INFOTIV. The workshop explains how AI and large language models (LLMs) work. With this knowledge, engineers can use these tools with a plan, not by luck.
